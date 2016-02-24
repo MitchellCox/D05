@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Assignment</title>
+		<link rel='stylesheet' href='stylesheets/bootstrap.css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid cos-xs-12">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand cos-xs-2" href="#">COXdev</a>
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="https://www.linkedin.com/in/mitchellacox">LinkedIn</a></li>
+		        <li><a href="https://github.com/MitchellCox">GitHub</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="https://www.linkedin.com/in/mitchellacox">LinkedIn</a></li>
+		            <li><a href="https://github.com/MitchellCox">GitHub</a></li>
+		            <li><a href="#">Contact Form</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="jumbotron">
+  		<div class="container">
+    		<h1 color= 'blue'>Hello, world!</h1>
+  			<p>Hello! My name is Mitchell Cox, and I am currently learning how to code using Bootstrap. This page is an assignment for my coding bootcamp class, DevPoint Labs. I thoroughly the class so far, and I hope to utilize my skills to become a Product Manager.</p>
+  			<p>As I hone my skills, I am interested in working as a freelance developer. If you are interested in working with me, check-out <a href='https://github.com/MitchellCox'>my work</a>, or fill out the form below:</p>
+  				<form>
+						 <div class='row'> 
+						  <div class="form-group">
+						    <div class='col-xs-12 col-sm-6'>
+							    <label for="exampleInputName2">First Name:</label>
+		    					<input type="text" class="form-control" id="exampleInputName2" placeholder="First Name">
+	    					</div>
+	    					<div class='ol-xs-12 col-sm-6'>
+		    					<label for="exampleInputName2">Last Name:</label>
+		    					<input type="text" class="form-control" id="exampleInputName2" placeholder="Last Name">
+	    					</div>
+						  </div>
+						 </div> 
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Email address:</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPhone">Phone number:</label>
+					    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="XXX-XXX-XXXX">
+					  </div>
+					  <div class="form-group">
+					  	<label for="exampleInputTextArea">Please provide a brief description of the work you would like completed.</label>
+					   	<textarea class="form-control" rows="3"></textarea>
+					  </div>
+					  <!-- Insert form -->
+					  <h4>Preferred method of response:</h4>
+					  <div class="checkbox">
+					    <label> 
+					      <input type="checkbox"> Email
+					    </label>
+					  </div>
+					  <div class="checkbox">
+					    <label> 
+					      <input type="checkbox"> Phone
+					    </label>
+					  </div>
+					  <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+      </div>
+		</div>
+	</body>
+</html>
